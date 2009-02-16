@@ -1,0 +1,4 @@
+category: Archive
+requires: cygwin
+sdesc: "LZH de/compression utility for *NIX"
+ldesc: "LZH de/compression utility for *NIX"

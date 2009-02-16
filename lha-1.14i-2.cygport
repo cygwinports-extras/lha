@@ -1,0 +1,10 @@
+DESCRIPTION="LZH compression utility"
+HOMEPAGE="http://sourceforge.jp/projects/lha/"
+SRC_URI="http://osdn.dl.sourceforge.jp/lha/22231/${P}-ac20050924p1.tar.gz"
+PATCH_URI="mirror://portage/app-arch/${PN}/files/${P//.}-file-list-from-stdin.patch"
+
+SRC_DIR="${P}-ac20050924p1"
+
+# manpage is in Japanese
+CYGCONF_ARGS="--mandir=/usr/share/man/ja"
+DOCS="Hacking_of_LHa"
